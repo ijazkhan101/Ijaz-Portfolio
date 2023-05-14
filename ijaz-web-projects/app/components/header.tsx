@@ -13,7 +13,7 @@ export const Header = ({ name, pages }) => {
                 aria-label={page.label}
                 key={page.id}
                 href={page.link}
-                className="mt-5 px-6 py-3 min-w-100 font-bold  hover:text-black font-display uppercase tracking-wide text-white bg-blue"
+                className="mt-5 px-6 py-3 min-w-100 font-bold  hover:text-black font-display uppercase tracking-wide text-white bg-blue text-base sm:text-sm lg:text-lg"
               >
                 {page.label}
               </Link>
