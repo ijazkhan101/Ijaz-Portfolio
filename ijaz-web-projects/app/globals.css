@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer base {
+  h1,h2,h3,h4 {
+    font-family: Oswald, Proxima Nova , system-ui, sans-serif;
+  }
+  html {
+    font-family: Merriweather,  Proxima Nova sans-serif;
+  }
+  h1{
+    @apply text-4xl sm:text-6xl font-bold;
+  }
+  h2{
+    @apply text-2xl uppercase text-black font-semibold mb-6
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white
+}
+
+
+.profileImage{
+  @apply rounded-full;
+  will-change: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 4%;
+}
+
+section {
+  @apply mb-10;
+}
