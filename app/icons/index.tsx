@@ -1,5 +1,0 @@
-export * from './github'
-export * from './linkedin'
-export * from './twitter'
-export * from './upwork'
-export * from './fiverr'

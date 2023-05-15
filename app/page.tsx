@@ -79,16 +79,16 @@ export default function Home() {
               As a highly skilled frontend web developer with over 4 plus years
               of experience, I am proud to be a top-rated plus freelancer in my
               field. My expertise lies in JavaScript, TypeScript, ReactJS,
-              NextJS, and Tailwind CSS. If you're in need of a top-quality
+              NextJS, and Tailwind CSS. If you are in need of a top-quality
               frontend developer to convert your PSD designs to responsive HTML,
-              CSS Bootstrap, PSD to ReactJS, or NextJS, I've got you covered. In
+              CSS Bootstrap, PSD to ReactJS, or NextJS, I have got you covered. In
               addition to these services, I am also proficient in designing and
               developing websites using WordPress and Shopify. With a keen eye
               for detail and a passion for creating visually stunning,
               responsive websites, I take pride in providing my clients with the
-              best possible solutions to their online needs. So, if you're
+              best possible solutions to their online needs. So, if you are
               looking for a reliable and skilled frontend developer to help you
-              bring your vision to life, look no further. Let's work together to
+              bring your vision to life, look no further. Lets work together to
               create a website that exceeds your expectations
             </p>
             <br></br>
