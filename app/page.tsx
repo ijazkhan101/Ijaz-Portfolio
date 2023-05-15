@@ -18,11 +18,11 @@ export default function Home() {
         </div>
         <div className="w-2/3 w-full mt-2 sm:ml-0 sm:mt-0">
           <h2>{aboutMeData.title}</h2>
-          <p className="text-base text-xl ">{aboutMeData.body}</p>
+          <p className="text-base text-xl text-black">{aboutMeData.body}</p>
         </div>
       </section>
       <section className="w-full h-full p-4 p-10 my-8 bg-blue-light sm:w-full">
-        <p className="text-xl p-50 sm:w-full sm:p-1">{aboutMeData.highlightedBody}</p>
+        <p className="text-xl text-black p-50 sm:w-full sm:p-1">{aboutMeData.highlightedBody}</p>
       </section>
       <section className="flex flex-col sm:flex-row">
         <div className="flex items-center">

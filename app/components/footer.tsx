@@ -12,9 +12,9 @@ export const Footer = () => {
   return (
     <div>
       <div>
-        <div className="flex flex flex-col p-10 sm:flex-row">
-          <div className="w-1/2 p-5 sm:p-1 w-full">
-            <p className="text-xl">
+        <div className="flex flex-col p-10 sm:flex-row">
+          <div className="w-1/2 w-full p-5 sm:p-1">
+            <p className="text-xl text-black">
               My name is Ijaz Ullah, and I am a highly skilled web developer
               with over 4 years of experience in the industry. As a testament to
               my expertise and proficiency in the field, <br />
@@ -22,7 +22,7 @@ export const Footer = () => {
               Upwork and hold a Level 2 badge on Fiverr. Over the years,
             </p>
           </div>
-          <div className="w-1/2  sm:p-1 w-full p-4 w-full">
+          <div className="w-1/2 w-full p-4 sm:p-1">
             <div>
               <h1 className="text-2xl">My Accounts </h1>
               <div className="flex">
