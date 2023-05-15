@@ -4,6 +4,9 @@ import Link from "next/link";
 import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaLinkedin } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaBehance } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
@@ -59,7 +62,34 @@ export const Footer = () => {
                     height={40}
                     className="ml-1"
                   />
-                  <span className="ml-1 ">Fiverr </span>
+                  <span className="ml-2 ">Fiverr </span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ijaz-ullah/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 "
+                >
+                 <FaLinkedin size={48} color="#0077B5" />
+                  <span className="ml-1 ">Linkedin </span>
+                </a>
+                <a
+                  href="https://twitter.com/ijazkhan101"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 "
+                >
+               <FaTwitter size={48} color="#1DA1F2" />
+                  <span className="ml-1 ">Twitter </span>
+                </a>
+                <a
+                  href="https://www.behance.net/ijazullah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 "
+                >
+               <FaBehance size={48} color="#1769FF" />
+                  <span className="ml-1 ">Behance </span>
                 </a>
               </div>
             </div>

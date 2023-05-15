@@ -4,8 +4,8 @@ import { aboutMeData } from "./data/data";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center mb-32">
-      <section className="flex sm:flex-row  sm:w-10/12 mt-10 mb-6 items-center flex-col w-full">
+    <main className="flex flex-col items-center mb-3">
+      <section className="flex sm:flex-row  sm:w-10/12 mt-10 mb-6 items-center flex-col w-full p-4">
         <div className="sm: w-1/3  w-full  flex justify-center">
           <Image
             width={540}
@@ -16,12 +16,12 @@ export default function Home() {
             className="profileImage"
           />
         </div>
-        <div className=" sm:ml-0 w-2/3  w-full  ">
+        <div className=" sm:ml-0 w-2/3  w-full mt-2 sm:mt-0 ">
           <h2>{aboutMeData.title}</h2>
           <p className="text-base text-xl ">{aboutMeData.body}</p>
         </div>
       </section>
-      <section className="w-full my-8 bg-blue-light p-10 h-full sm:w-full p-0">
+      <section className="w-full my-8 bg-blue-light p-10 h-full sm:w-full p-4">
         <p className="text-xl p-50   sm:w-full sm:p-1">{aboutMeData.highlightedBody}</p>
       </section>
       <section className="flex flex-col sm:flex-row">
@@ -45,7 +45,7 @@ export default function Home() {
               Fiverr Profile Link
             </Link>
           </div>
-          <div className="w-1/2 p-4 sm:w-full">
+          <div className="sm:w-full">
             <Image
               width={640}
               height={1100}
@@ -64,7 +64,7 @@ export default function Home() {
       </section>
       <section className="flex flex-row w-full items-center bg-black w-full p-5 flex flex-col  ">
         <div className="grid grid-flow-row sm:grid-flow-col gap-3">
-          <div className="w-1/2 p-4 sm:w-full">
+          <div className=" sm:w-full ">
             <Image
               width={840}
               height={1100}
