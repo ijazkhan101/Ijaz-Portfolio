@@ -34,7 +34,7 @@ export const Projects = [
   {
     title: "Tic-Tac-Teo Game",
     body1: "A simple game developed using python ",
-    img: "",
+    image: "Panaverse.png",
     links: [
       {
         text: "Source Code",
@@ -47,9 +47,9 @@ export const Projects = [
     ],
   },
   {
-    title: "Website Using NExt js 13",
-    body1: "Build a Portfolio with NEXT.js13 & TypeScript & TailwindCSS ",
-    img: "",
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
     links: [
       {
         text: "Source Code",
@@ -61,4 +61,95 @@ export const Projects = [
       },
     ],
   },
+  {
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+      {
+        text: "Live Site",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+    ],
+  },
+  {
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+      {
+        text: "Live Site",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+    ],
+  },
+  {
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+      {
+        text: "Live Site",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+    ],
+  },
+  {
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+      {
+        text: "Live Site",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+    ],
+  },
+  {
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+      {
+        text: "Live Site",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+    ],
+  },
+  {
+    title: "Tic-Tac-Teo Game",
+    body1: "A simple game developed using python ",
+    image: "project-1.png",
+    links: [
+      {
+        text: "Source Code",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+      {
+        text: "Live Site",
+        url: "https://github.com/ijazkhan101/Ijaz-Portfolio",
+      },
+    ],
+  },
+
 ];

@@ -1,9 +1,23 @@
-import React from 'react'
-
- const Contact = () =>{
-    return(
-        <div className='text-black'>Contact us coming soon </div>
-    )
-}
+import React from "react";
+import { Form } from "../components/form";
+import { contactMeText } from "../data/data";
+const Contact = () => {
+  return (
+    <div className="flex flex-col w-11/12 content-center m-auto mt-10">
+      <h2>CONTACT ME</h2>
+      <div className="flex flex-row w-9/12 content-center m-auto bg-gray-light p-10 gap-20">
+        <div className="flex flex-col w-2/4">
+        <h3 className="text-2xl mb-10">{contactMeText.title}</h3>
+        <p>{contactMeText.body}</p>
+        </div>
+        <div>
+        <div className="w2/4">
+            <Form/>  
+        </div>
+      </div>
+      </div>
+    </div>
+  );
+};
 
 export default Contact;

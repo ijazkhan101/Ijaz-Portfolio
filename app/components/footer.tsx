@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaBehance } from 'react-icons/fa';
@@ -13,7 +12,7 @@ export const Footer = () => {
     <div>
       <div>
         <div className="flex flex-col p-10 sm:flex-row">
-          <div className="w-1/2 w-full p-5 sm:p-1">
+          <div className="w-1/2 p-5 sm:p-1">
             <p className="text-xl text-black">
               My name is Ijaz Ullah, and I am a highly skilled web developer
               with over 4 years of experience in the industry. As a testament to
@@ -22,7 +21,7 @@ export const Footer = () => {
               Upwork and hold a Level 2 badge on Fiverr. Over the years,
             </p>
           </div>
-          <div className="w-1/2 w-full p-4 sm:p-1">
+          <div className="w-full p-4 sm:p-1">
             <div>
               <h1 className="text-2xl">My Accounts </h1>
               <div className="flex">
